@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    padding:opx;
+    margin: 0;
+    background-color: #2c3e50;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 3px solid orange;
+
+}
+h1 span
+{
+color:orange;
+}
+
+
+li{
+
+    margin: 20px;
+    list-style-type: none;
+    display: inline;
+   
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:orange;
+    font-weight: bold;
+
+}
+nav{
+    margin-top: 15px;
+}
+#banner
+{
+    background:url('./showcase.jpg');
+    background-position: center;
+         height: 300px;
+     margin-top:0;
+     display: flex;
+     align-items: center;
+     text-align: center;
+
+
+}
+.context
+{
+    margin: 0 auto;
+    color:white;
+}
+ section h1{
+    font-size:40px;
+}
+
+
+
+
+.contain
+{
+    padding:opx;
+    margin: 0;
+    background-color: #2c3e50;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+}
+    .newsletter{
+    margin-top: 20px;
+    border:none;
+    }
+    section input[type="submit"]
+    {
+        border:none;
+        width:22%;
+        height:22px;
+       
+    }
+    #items ul {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    #items li {
+        text-align: center;
+    }
+footer{
+    height:30px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
